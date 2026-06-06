@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="48" viewBox="0 0 340 48" fill="none" role="img" aria-label="Visa, Mastercard, American Express, PayPal, Discover">
+  <defs>
+    <style>
+      .card{fill:#fff;stroke:#e4e7ec;stroke-width:1}
+      .t{font-family:Arial,Helvetica,sans-serif;font-weight:700}
+    </style>
+  </defs>
+
+  <!-- Visa -->
+  <rect class="card" x="1" y="1" width="62" height="46" rx="6"/>
+  <text class="t" x="32" y="31" font-size="18" fill="#1a1f71" text-anchor="middle" font-style="italic">VISA</text>
+
+  <!-- Mastercard -->
+  <rect class="card" x="70" y="1" width="62" height="46" rx="6"/>
+  <circle cx="94" cy="24" r="11" fill="#eb001b"/>
+  <circle cx="108" cy="24" r="11" fill="#f79e1b" fill-opacity="0.9"/>
+
+  <!-- American Express -->
+  <rect x="139" y="1" width="62" height="46" rx="6" fill="#2e77bc"/>
+  <text class="t" x="170" y="21" font-size="9" fill="#fff" text-anchor="middle">AMERICAN</text>
+  <text class="t" x="170" y="34" font-size="9" fill="#fff" text-anchor="middle">EXPRESS</text>
+
+  <!-- PayPal -->
+  <rect class="card" x="208" y="1" width="62" height="46" rx="6"/>
+  <text class="t" x="239" y="30" font-size="14" text-anchor="middle"><tspan fill="#003087">Pay</tspan><tspan fill="#009cde">Pal</tspan></text>
+
+  <!-- Discover -->
+  <rect class="card" x="277" y="1" width="62" height="46" rx="6"/>
+  <text class="t" x="305" y="29" font-size="11" fill="#231f20" text-anchor="middle">DISC<tspan fill="#f48120">O</tspan>VER</text>
+</svg>
